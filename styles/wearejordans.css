@@ -62,6 +62,7 @@ nav ul li a:hover {
 .col-md-4 {
 	height: 500px;
 	text-align: center;
+	background-color: white;
 }
 #first-date {
 	text-align: center;
@@ -105,9 +106,9 @@ nav ul li a:hover {
 	background: url("images/future.jpg") no-repeat center center;
 	background-size: fill;
 }
-#photo-carousel, #photo-carousel-wedding, #photo-carousel-junior {
+/*#photo-carousel, #photo-carousel-wedding, #photo-carousel-junior {
 	border: solid 1px;
-}
+}*/
 #photo-carousel img, #photo-carousel-wedding img, #photo-carousel-junior img {
 	height: 330px;
 	max-width: 440px;
@@ -115,6 +116,9 @@ nav ul li a:hover {
 .carousel-inner {
 	margin: 0 auto;
 	max-width: 440px;
+}
+#first-date, #young_text, #photo-carousel, #wedding_text, #wedding_img, #photo-carousel-wedding, #junior_img, #junior_text, #photo-carousel-junior, #future {
+	display: none;
 }
 
 
