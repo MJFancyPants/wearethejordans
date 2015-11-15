@@ -2,13 +2,19 @@ body {
 	margin: 0;
 }
 #nav-bar {
-	background-color: black;
+	background-color: rgba(255,255,255,.01);
 	width: 100%;
+	height: 20px;
+	position: fixed;
+}
+#logo {
 	height: 100px;
+	width: 100px;
 }
 nav {
-	text-align: right;
-	height: 100px;
+/*	text-align: left;*/
+	height: 20px;
+	width: 80%;
 	margin: 0 5px;
 	padding: 30px 0;
 }
@@ -16,26 +22,103 @@ nav ul li {
 	list-style-type: none;
 	display: inline;
 	color: white;
-	font-size: 24px;
+	font-size: 32px;
 }
 nav ul li a {
 	text-decoration: none;
 	color: white;
 }
 nav ul li a:hover {
-	text-decoration: underline;
-	color: white;
+	text-decoration: none;
+	color: salmon;
 }
 .container {
 	width: 100%;
 	height: 500px;
 /*	border: solid;*/
 }
+#main-header {
+	background: url("images/zoofamily.jpg") no-repeat center center;
+	background-size: 1440px 810px;
+	width: 100%;
+	height: 600px;
+	text-align: right;
+}
+#main-header p {
+	font-family: "Arial Black";
+	font-size: 80px;
+	color: white;
+	margin-right: 80px;
+	padding: 350px 0 0 0;
+}
+#main-header p span {
+	background-color: rgba(0,0,0,.3);
+	padding: 0 10px;
+}
 .col-md-8 {
-	border: solid 1px;
 	height: 500px;
+	background-color: black;
 }
 .col-md-4 {
-	border: solid 1px;
 	height: 500px;
+	text-align: center;
 }
+#first-date {
+	text-align: center;
+	padding: 25px 0 25px 0;
+}
+#first-date img {
+	border-radius: 40%;
+	height: 450px;
+	width: 600px;
+}
+#young_text {
+	width: 80%;
+	text-align: left;
+}
+#wedding_img {
+	background: url("images/weddingstroll.jpg") no-repeat center center;
+	background-size: fill;
+}
+#wedding_text {
+	width: 80%;
+	text-align: left;
+}
+#junior_img {
+	background: url("images/junior.jpg") no-repeat center center;
+	background-size: fill;
+}
+#junior_text {
+	width: 80%;
+	text-align: left;
+}
+#future_text {
+	width: 80%;
+	text-align: left;
+}
+#future_text p span {
+	background-color: rgb(0,0,0);
+	color: white;
+	padding: 0 2px;
+}
+#future_img {
+	background: url("images/future.jpg") no-repeat center center;
+	background-size: fill;
+}
+#photo-carousel, #photo-carousel-wedding, #photo-carousel-junior {
+	border: solid 1px;
+}
+#photo-carousel img, #photo-carousel-wedding img, #photo-carousel-junior img {
+	height: 330px;
+	max-width: 440px;
+}
+.carousel-inner {
+	margin: 0 auto;
+	max-width: 440px;
+}
+
+
+
+
+
+
