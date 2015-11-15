@@ -117,7 +117,7 @@ nav ul li a:hover {
 	margin: 0 auto;
 	max-width: 440px;
 }
-#first-date, #young_text, #photo-carousel, #wedding_text, #wedding_img, #photo-carousel-wedding, #junior_img, #junior_text, #photo-carousel-junior, #future {
+#first-date, #young_text, #photo-carousel, #wedding_text, #wedding_img, #junior_img, #junior_text, #photo-carousel-junior, #future {
 	display: none;
 }
 

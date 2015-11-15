@@ -28,30 +28,24 @@ $(document).ready(function() {
 		}
 	});
 
-	$(window).scroll(function() {
-		if ($(this).scrollTop()>1430) {
-			$("#photo-carousel-wedding").fadeIn();
-		}
-	});	
+	// $(window).scroll(function() {
+	// 	if ($(this).scrollTop()>1600) {
+	// 		$("#junior_img").slideDown();
+	// 		$("#junior_text").slideDown();
+	// 	}
+	// });
 
-	$(window).scroll(function() {
-		if ($(this).scrollTop()>1600) {
-			$("#junior_img").slideDown();
-			$("#junior_text").slideDown();
-		}
-	});
+	// $(window).scroll(function() {
+	// 	if ($(this).scrollTop()>2081) {
+	// 		$("#photo-carousel-junior").fadeIn();
+	// 	}
+	// });
 
-	$(window).scroll(function() {
-		if ($(this).scrollTop()>2081) {
-			$("#photo-carousel-junior").fadeIn();
-		}
-	});
-
-	$(window).scroll(function() {
-		if ($(this).scrollTop()>2260) {
-			$("#future").fadeIn();
-		}
-	});
+	// $(window).scroll(function() {
+	// 	if ($(this).scrollTop()>2260) {
+	// 		$("#future").fadeIn();
+	// 	}
+	// });
 
 	
 });
