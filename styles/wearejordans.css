@@ -113,12 +113,39 @@ nav ul li a:hover {
 	height: 330px;
 	max-width: 440px;
 }
+.col-md-6 {
+	text-align: center;
+	height: 500px;
+	border-right: dotted 1px black;
+}
+.col-md-6 img {
+	width: auto;
+	height: 300px;
+	border-radius: 50%;
+	vertical-align: -400px;
+}
+.col6-text {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+	height: 300px;
+	margin-top: 100px;
+}
+#bwmarried {
+	background: url("images/wedding6.jpg") no-repeat center center;
+	background-size: 903px 600px;
+	width: 100%;
+	height: 600px;
+	text-align: right;
+}
 .carousel-inner {
 	margin: 0 auto;
 	max-width: 440px;
 }
-#first-date, #young_text, #photo-carousel, #wedding_text, #wedding_img, #junior_img, #junior_text, #photo-carousel-junior, #future {
-	display: none;
+#first-date, #young_text, #photo-carousel, #wedding_text, #wedding_img, #junior_img, #junior_text, #photo-carousel-junior, #future, .col6-text-1, .col6-text-2, .col6-text-3, .col6-text-4, .col6-text-5, .col6-img-1, .col6-img-2, .col6-img-3, .col6-img-4, .col6-img-5, #bwmarried {
+	visibility: hidden;
+	opacity: 0.0;
 }
 
 
